@@ -401,9 +401,9 @@ public class BrowserUtils {     //selenium tools , mouse actions
         new WebDriverWait(Driver.get(), time).until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
+/*public  static  void  waitTextToBePresent(WebElement element,String text){
 
+    new WebDriverWait(Driver.get(),10).until(ExpectedConditions.textToBePresentInElement(element,text));
 
-
-
-
+}*/
 }
